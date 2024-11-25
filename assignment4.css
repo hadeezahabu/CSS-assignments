@@ -117,3 +117,21 @@ select {
 .terms a:hover {
     text-decoration: underline;
 }
+  /* Default styles */
+body {
+    font-size: 16px;
+}
+
+/* Tablet styles */
+@media (max-width: 1023px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+    body {
+        font-size: 12px;
+    }
+}
